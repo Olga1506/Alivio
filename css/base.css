@@ -29,3 +29,7 @@ body{
     margin-right: auto;
 
 }
+
+.container-wide{
+    width: 1536px;
+}
