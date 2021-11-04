@@ -17,6 +17,7 @@
     margin-bottom: 30px;
     font-weight: bold;
     font-size: 65px;
+    line-height: 113.8%;
     color: #01996D;
 }
 
@@ -44,4 +45,27 @@
     height: 100%;
     object-fit: cover;
 }
+
+
+@media  (max-width: 992px) {
+    .home{
+        padding: 40px 0;
+        min-height: unset;
+    }
+    .home-heading{
+        font-size: 45px;
+    }
+    .home-button {
+        padding-top: 30px;
+    }
+    .home-bg_img img{
+       opacity: 0.5;
+    }
+    .button, a.button {
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 18px;
+    }
+}
+
 
