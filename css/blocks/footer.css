@@ -1,0 +1,35 @@
+
+
+.footer{
+    background-color: #245852;
+    color: white;
+    padding: 100px 0 140px 275px;
+}
+
+.footer-logo{
+    margin-bottom: 75px;
+}
+
+.footer-content{
+
+}
+
+.footer-nav{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.footer-nav li + li{
+    margin-top: 60px;
+
+}
+
+.footer-nav a{
+    transition: opacity 0.2s ease;
+}
+
+.footer-nav a:hover{
+    opacity: 0.8;
+}
